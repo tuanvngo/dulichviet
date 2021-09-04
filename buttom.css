@@ -1,0 +1,63 @@
+
+.header__img{
+    width: 100%;
+    display: block
+}
+.header__img img{
+    width:100% ;
+    position: relative;
+}
+.header__img a{
+    position: absolute;
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--primeri--color);
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header__img a i{
+    margin-right: 10px;
+    font-size: 25px;
+    font-size: 16px;
+}
+form{
+    display: block;
+    width: 1024px;
+    margin: 50px auto;
+    text-align: center;
+}
+form h1{
+    font-weight: 600;
+    color: var(--primeri--color);
+}
+.type {
+    display: block;
+    margin-top: 10px;
+}
+.date{
+    display: flex;
+    width: 74%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+form div input{
+    width: 70%;
+    margin: 20px;
+    color: rgb(29, 39, 73);
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--primeri--color);
+    padding: 5px ;
+}
+form div p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.fa-heart{
+    color: red;
+}
