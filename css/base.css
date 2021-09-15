@@ -40,12 +40,12 @@ a,p{
 .header__content__sale h1{
     font-family: 'Dancing Script';
     font-size: 50px;
-    color: rgb(224, 44, 44);
+    color: var(--primeri--color);
 }
 .header__content__sale p{
     font-family: 'Dancing Script';
     font-size: 35px;
-    color: var(--hover--color);
+    color: rgb(41, 102, 117);
 }
 .header__content__sale button{
     padding: 12px 30px;
@@ -147,7 +147,7 @@ a,p{
     right: 15px;
     margin-right: -100px ;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
 }
 .facebook{
     margin-top: 30px;

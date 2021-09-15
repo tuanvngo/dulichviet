@@ -52,6 +52,7 @@
 }
 .content__list__iteam img{
     width: 100%;
+    height: 200px;
 }
 .tytle{
     margin: 100px auto;

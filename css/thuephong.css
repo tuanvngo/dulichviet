@@ -20,7 +20,8 @@
 }
 .header__content__sale p{
     font-size: 30px;
-    color: var(--text-color);
+    color: rgb(22, 77, 102);
+
 }
 .body__content{
     margin: 100px 0;

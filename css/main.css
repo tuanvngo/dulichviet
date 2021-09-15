@@ -180,6 +180,9 @@ header{
 .container__list__iteam__text{
     position: absolute;
 }
+.container__list__iteam__text p{
+    color: var(--white--color);
+}
 .tytle{
     margin: 50px;
 }

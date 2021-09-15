@@ -11,16 +11,17 @@
     position: absolute;
     width: 800px;
     display: block;
-    top: 200px;
+    top: 300px;
     margin: 0 20%;
     text-align: center;
 }
 .header__content__sale h1{
     font-size: 40px;
+    color: rgb(221, 53, 53);
 }
 .header__content__sale p{
     font-size: 30px;
-    color: var(--text-color);
+    color: rgb(41, 41, 35);
 }
 .body__content{
     margin: 100px 0;
@@ -34,13 +35,16 @@
 .content__list__iteam{
     width: 47%;
     border: 1px solid #ccc;
+    overflow: hidden;
 }
 .content__list__iteam img{
     width: 100%;
 }
+.content__list__iteam img:hover{
+    transform: scale3d(1.1 , 1.1 ,0.9);
+    transition: ease-in 0.25s;
+}
 .content__list__iteam__icon{
-    /* display: flex; */
-   
     margin: 30px;
 }
 .content__list__iteam__icon p {
